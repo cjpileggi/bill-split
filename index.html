@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>BillSplit v1.1</title>
+	</head>
+</html>
+<body>
+	<form id="f1">
+		<p id="i1">Number of people: <input type="text" name="pNum"/></p>
+		<p id="i2">Sales Tax: <input type="text" name="taxIn"/>%</p>
+		<input type="button" value="Submit" name="subF1" />
+	</form>
+
+	<form id="f2" style="display:none"></form>
+	<div id="tots" style="display:none;">
+		<h2>Totals:</h2>
+		<p></p>
+		<p></p>
+		<p></p>
+		<p></p>
+		<h3>Tip:</h3>
+		<p></p>
+		<p></p>
+		<h2>Individual Costs:</h2>
+		<p></p>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="bill-split.js"></script>
+</body>
